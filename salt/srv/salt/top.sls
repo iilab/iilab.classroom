@@ -1,3 +1,5 @@
 base:
   '*':
-    - httpd
+    - http
+    - squid
+    - kiwix

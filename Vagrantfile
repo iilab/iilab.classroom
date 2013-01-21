@@ -6,6 +6,8 @@ Vagrant::Config.run do |config|
   # options are documented and commented below. For a complete reference,
   # please see the online documentation at vagrantup.com.
 
+  config.vm.host_name = "classroom.tethr"
+    
   # Every Vagrant virtual environment requires a box to build off of.
   config.vm.box = "precise64"
 
@@ -22,7 +24,9 @@ Vagrant::Config.run do |config|
 
   # Forward a port from the guest to the host, which allows for outside
   # computers to access the VM, whereas host only networking does not.
-  # config.vm.forward_port 80, 8080
+  config.vm.forward_port 80, 80
+  config.vm.forward_port 3128, 8080
+  config.vm.forward_port 8081, 8081
 
   # Share an additional folder to the guest VM. The first argument is
   # an identifier, the second is the path on the guest to mount the
