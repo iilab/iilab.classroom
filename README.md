@@ -1,4 +1,4 @@
-tethr.classroom
+iilab.classroom
 ===============
 
 Log
@@ -8,7 +8,7 @@ Log
 - Install Vagrant-Salt ``vagrant gem install vagrant-salt``
 - Add a Vagrant box ``vagrant box add precise64 http://files.vagrantup.com/precise64.box``
 - Clone the repo ``git clone git://github.com/iilab/iilab.classroom.git``
-- ``cd tethr.classroom``
+- ``cd iilab.classroom``
 - ``vagrant init`` (is this needed?)
 - ``vagrant up``
 
