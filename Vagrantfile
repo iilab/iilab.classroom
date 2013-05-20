@@ -6,7 +6,7 @@ Vagrant::Config.run do |config|
   # options are documented and commented below. For a complete reference,
   # please see the online documentation at vagrantup.com.
 
-  config.vm.host_name = "classroom.tethr"
+  config.vm.host_name = "classroom.iilab"
     
   # Every Vagrant virtual environment requires a box to build off of.
   config.vm.box = "precise64"
